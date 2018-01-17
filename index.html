@@ -1,0 +1,111 @@
+<!doctype HTML>
+
+<html lang="en">
+	
+	<head>
+		<!-- Meta tags -->
+		<meta charset="utf-8" />
+		<meta name="description" content="#" /> 
+		<meta name="keywords" content="#" />
+		<meta name="author" content="Andrew Yin Li" />
+
+		<!-- Stylesheets -->
+		<link rel="stylesheet" href="assets/css/mainstylesheet.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  <!-- Icon graphics -->
+
+		<title>Rainier</title>
+	</head>
+	
+	<body>
+		<!-- Background Container -->
+		<div id="bg">
+			<video muted loop autoplay id="bg-video">
+		        <source src="assets/videos/rainier.mp4" type="video/mp4"> <!-- Rainier Video Background -->
+	   	 	</video>
+	   	 	<div id="bg-overlay"></div> <!-- Overlay filter for background -->
+		</div>
+
+		<!-- Container for what goes above the video background -->
+		<div id="header">
+			<!-- Container for your profile picture -->
+			<div id="profile-picture">
+				<img src="assets/images/placeholder.jpg" alt="Picture of me!">
+			</div>
+			<!-- Heading -->
+			<h1>Rainier</h1>
+			<!-- Everything in here goes on the dark, semi-opaque overlay of the background -->
+			<div id="introduction-overlay">
+				<h2>Hi, I'm Andrew (ali@oberlin.edu). This is Rainier.</h2>
+				<h2>I originally designed this website template originally for my personal use: <a href="www.andrewyinli.com">www.andrewyinli.com</a></h2>
+			</div>
+			<!-- Container for your resume! -->
+			<div id="resume">
+				<button class="button" onclick="window.open('#','_blank')"><span>View Résumé <i class="fa fa-file-pdf-o"></i></span></button>
+			</div>
+			<!-- Container for social Links -->
+			<div id="social">
+				<a href="mailto:#" title="Email"><img src="assets/images/email.png" alt="Email"></a>
+				<a href="#" title="GitHub"><img src="assets/images/github.png" alt="GitHub"></a>
+				<a href="#" title="LinkedIn"><img src="assets/images/linkedin.png" alt="LinkedIn"></a>
+			</div>
+			<!-- Container for downward arrow effect -->
+			<div class="arrow">
+				<i class="fa fa-angle-double-down" style="font-size:70px; color:#FFFFFF;"></i>
+			</div>
+		</div>
+		<!-- Contains the meat of the website. Everything here is past the video background. -->
+		<div id="main">
+			<!-- Everything with the '-top' naming creates the crooked div effect -->
+			<div id="about-top"></div>
+			<!-- Container for about section -->
+			<div id ="about">
+				<h3>Introduction</h3>
+				<br /><h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a eros eu odio semper sollicitudin. Nullam arcu nisl, aliquet eget sodales vitae, laoreet sed felis. Suspendisse sodales dignissim dui quis efficitur. Sed egestas bibendum vehicula. Donec placerat justo rutrum tellus suscipit rhoncus. Proin nec tempor turpis. Nulla tempor interdum dolor aliquam dignissim. Nunc ut justo eget erat molestie suscipit a a lectus. Sed id massa urna.</h5>
+			</div>
+			<!-- Container for portfolio section -->
+			<div id="portfolio-top"></div>
+			<div id ="portfolio">
+				<h3>Portfolio and Experience</h3><br />
+				<div id="portfolio-projects">
+					<!-- Container for a single project. Feel free to copy and paste these within the 'portfolio-projects' div -->
+					<div class="portfolio-project">
+						<h4>Lorem ipsum</h4>
+						<br /><h6>Date: <br />Skills: <br />Employer: <br />Supervisor: </h6>
+						<br />
+						<h5>Maecenas rutrum bibendum ex eu ullamcorper. Etiam tortor lectus, rutrum quis consectetur a, vulputate pellentesque neque. Fusce eget dictum odio. Fusce mollis, turpis vel dignissim tincidunt, ipsum magna ullamcorper sapien, sed fermentum massa lorem non sapien. Donec vehicula sit amet libero eget efficitur. Nam ac aliquam nulla. Cras velit est, efficitur ut viverra vel, vestibulum eu nisi. Morbi semper sollicitudin lobortis.</h5>
+						<br />
+						<button class="project-button"><h4 class="project-button-text"><a href="#"><i class="fa fa-github-square fa-2x"></i>&nbsp;Source Code</a></h4></button>
+					</div>
+					<!-- Container for a single project. Feel free to copy and paste these within the 'portfolio-projects' div -->
+					<br /><div class="portfolio-project">
+						<h4>Lorem ipsum</h4>
+						<br /><h6>Date: <br />Skills: <br />Employer: <br />Supervisor: </h6>
+						<br />
+						<h5>Maecenas rutrum bibendum ex eu ullamcorper. Etiam tortor lectus, rutrum quis consectetur a, vulputate pellentesque neque. Fusce eget dictum odio. Fusce mollis, turpis vel dignissim tincidunt, ipsum magna ullamcorper sapien, sed fermentum massa lorem non sapien. Donec vehicula sit amet libero eget efficitur. Nam ac aliquam nulla. Cras velit est, efficitur ut viverra vel, vestibulum eu nisi. Morbi semper sollicitudin lobortis.</h5>
+						<br />
+						<button class="project-button"><h4 class="project-button-text"><a href="#"><i class="fa fa-github-square fa-2x"></i>&nbsp;Source Code</a></h4></button>
+					</div>
+					<!-- Container for a single project. Feel free to copy and paste these within the 'portfolio-projects' div -->
+					<br /><div class="portfolio-project">
+						<h4>Lorem ipsum</h4>
+						<br /><h6>Date: <br />Skills: <br />Employer: <br />Supervisor: </h6>
+						<br />
+						<h5>Maecenas rutrum bibendum ex eu ullamcorper. Etiam tortor lectus, rutrum quis consectetur a, vulputate pellentesque neque. Fusce eget dictum odio. Fusce mollis, turpis vel dignissim tincidunt, ipsum magna ullamcorper sapien, sed fermentum massa lorem non sapien. Donec vehicula sit amet libero eget efficitur. Nam ac aliquam nulla. Cras velit est, efficitur ut viverra vel, vestibulum eu nisi. Morbi semper sollicitudin lobortis.</h5>
+						<br />
+						<button class="project-button"><h4 class="project-button-text"><a href="#"><i class="fa fa-github-square fa-2x"></i>&nbsp;Source Code</a></h4></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Any last words? -->
+		<footer>
+			<div id="footer-top"></div>
+			<h3>Footer</h3><br />
+			<h5>
+				Mauris blandit urna id velit aliquam scelerisque ut sit amet leo. Pellentesque in velit nibh. Maecenas ut nulla facilisis, placerat nunc ac, dictum erat. Nam eget purus dictum, porta enim eu, mollis massa. Praesent id imperdiet dolor. Ut in blandit sapien. Aliquam sed tortor hendrerit, varius lorem sed, hendrerit purus. Nam blandit pharetra lacus quis porta. Suspendisse sed bibendum magna. Vestibulum et fermentum erat. Cras at est nec orci malesuada pulvinar. Cras felis tellus, malesuada iaculis est a, condimentum pulvinar tellus. Vivamus vel sollicitudin erat. Mauris mattis placerat maximus. Fusce velit nibh, mollis sed ligula eget, scelerisque gravida ante. Nullam est urna, fringilla ac libero consectetur, interdum maximus velit.
+			</h5>
+			<br /> 
+		</footer>
+	</body>
+	
+</html>
